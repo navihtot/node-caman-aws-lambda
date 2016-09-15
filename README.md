@@ -15,5 +15,6 @@ Fibers also needed to be recompiled with `node-gyp` on EC2 running same OS versi
 Compiled native libs (required by node-canvas) are placed in `/lib` folder.
 
 ## Usage
-Before deploying to AWS Lambda you should just replace modules in node_modeules folder with the 3 provided here (`caman`, `canvas`, `fiber`).
+Before deploying to AWS Lambda you should just replace modules in node_modules folder with the 3 provided here (`caman`, `canvas`, `fiber`).
 Copy `lib` folder to your project folder.
+I suggest using https://github.com/motdotla/node-lambda with post install script for deployment.
