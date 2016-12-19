@@ -1,0 +1,2 @@
+// Marcel, this is how you fixed your build issues on Windows
+set GYP_MSVS_VERSION=2013
